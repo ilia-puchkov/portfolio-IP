@@ -1,0 +1,13 @@
+@import url(./vendor/normalize.css);
+
+@import url(./vendor/fonts/fonts.css);
+
+@import url(./components/App/App.css);
+
+.body {
+  margin: 0;
+  background-color: #252525;
+  font-family: 'Jura', Arial, san-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
