@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/ilia-puchkov/portfolio-IP",
+  "homepage": "https://ilia-puchkov.github.io/portfolio-IP/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
