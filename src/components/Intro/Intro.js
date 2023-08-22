@@ -1,4 +1,4 @@
-import introPhoto from '../../images/portfolio - avatar.png';
+import introPhoto from '../../images/avatar.jpg';
 import introBack from '../../images/intro-back.svg';
 
 function Intro() {
@@ -24,6 +24,7 @@ function Intro() {
               Написать
             </a>
             <a className='intro__links-logo' href='https://t.me/reras_suburbia' target='_blank'></a>
+            <a className='intro__links-logo git-logo' href='https://github.com/ilia-puchkov' target='_blank'></a>
           </div>
         </div>
         <img className='intro__photo' src={introPhoto} />

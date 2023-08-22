@@ -48,7 +48,7 @@ function Projects({ cards }) {
         itemClass='projects__card'
         containerClass='projects__carousel'
         sliderClass='test'
-        dotListClass='test'
+        dotListClass='test dot-list'
         showDots={true}
         customRightArrow={<CustomRightArrow />}
         customLeftArrow={<CustomLeftArrow />}

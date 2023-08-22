@@ -48,8 +48,8 @@
 }
 
 .intro__photo {
-  width: 330px;
-  height: 350px;
+  width: 350px;
+  height: 320px;
   border-radius: 4px;
 }
 
@@ -66,6 +66,7 @@
   flex-wrap: wrap;
   align-items: center;
   margin-top: 20px;
+  gap: 10px;
 }
 
 .intro__links-button {
@@ -100,6 +101,11 @@
   transition: .4s linear;
 }
 
+.git-logo {
+  background-image: url(../../images/github-mark-white.svg);
+  background-size: cover;
+}
+
 .intro__links-logo:hover {
   cursor: pointer;
   box-shadow: 5px 5px #C52B33;
@@ -125,6 +131,9 @@
 @media screen and (max-width: 491px) {
   .intro {
     padding: 0px 20px 0px;
+  }
+  .intro__links {
+    flex-direction: column;
   }
 }
 
